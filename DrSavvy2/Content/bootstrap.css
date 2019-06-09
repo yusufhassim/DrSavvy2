@@ -70,8 +70,8 @@ span {
 }
 
     #sidebar.active {
-        min-width: 80px;
-        max-width: 80px;
+        min-width: 100px;
+        max-width: 100px;
         text-align: center;
     }
 
@@ -88,16 +88,18 @@ span {
         text-align: left;
     }
 
+    
+    /*Font size after shrinking sidebar*/
     #sidebar.active ul li a {
         padding: 20px 10px;
         text-align: center;
-        font-size: 0.85em;
+        font-size: 0.70em;
     }
 
         #sidebar.active ul li a i {
             margin-right: 0;
             display: block;
-            font-size: 1.8em;
+            font-size: 0.70em;
             margin-bottom: 5px;
         }
 
@@ -140,6 +142,11 @@ span {
             background: #fff;
         }
 
+    #sidebar ul li.active a:hover {
+        color: #000000;
+        background: #fff;
+    }
+
         #sidebar ul li a i {
             margin-right: 10px;
         }
@@ -163,7 +170,7 @@ a[data-toggle="collapse"] {
 }
 
 ul ul a {
-    font-size: 0.9em !important;
+    font-size: 0.70em !important;
     padding-left: 30px !important;
     background: #28292b;
 }
