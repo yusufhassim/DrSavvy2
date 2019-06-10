@@ -1,48 +1,39 @@
 ﻿
 @{
-    ViewBag.Title = "RecordConsultation";
+    ViewBag.Title = "Record Consultation";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<h2>Record Consultation</h2>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-3">
-            <h6>Patient Details</h6>
-            <ul>
-                <li>Name:</li>
-                <li>Surname:</li>
-                <li>Gender:</li>
-            </ul>
-        </div>
-        <div class="col-sm-3">
-            <h6>Allergies</h6>
-            <ul>
-                <li>Aspirin</li>
-                <li>Ornages</li>
-                <li>Apples</li>
-            </ul>
-        </div>
-        <div class="col-sm-3">
-            <h6>Existing Medical Conditions</h6>
-            <ul>
-                <li>Asthma</li>
-                <li>Migranes</li>
-                <li>Diabetes</li>
-            </ul>
-        </div>
-        <div class="col-sm-3">
-            <h6>Previous Consultations</h6>
-            <table class="table-active table table-hover active" style="border-radius: 25px">
-                <tr>
-                    <td>2019/01/01</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2019/01/01</td>
-                </tr>
-            </table>
+<div class="row">
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+        <a href="#" class="list-group-item list-group-item-action active">
+            <b data-highlightable="1" class="gjs-comp-selected">
+                Patient Details
+            </b>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action disabled">Yusuf Hassim</a>
+        <a href="#" class="list-group-item list-group-item-action disabled">Age: 23</a>
+        <a href="#" class="list-group-item list-group-item-action disabled">Male</a>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+        <a href="#" class="list-group-item list-group-item-action active">
+            <b>
+                Allergies
+            </b>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action disabled">Aspirin</a>
+        <a href="#" class="list-group-item list-group-item-action disabled">Penicillin</a>
+        <a href="#" class="list-group-item list-group-item-action disabled">ibuprofen</a>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active">
+                <b>
+                    Previous Consultations
+                </b>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action"><i class="far fa-folder-open"></i>&nbsp;03 Jan 2019 </a>
+            <a href="#" class="list-group-item list-group-item-action"><i class="far fa-folder-open"></i>&nbsp;02 Nov 2018 </a>
+            <a href="#" class="list-group-item list-group-item-action"><i class="far fa-folder-open"></i>&nbsp;12 Jun 2018 </a>
         </div>
     </div>
 </div>
