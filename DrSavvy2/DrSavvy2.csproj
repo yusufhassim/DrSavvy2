@@ -172,7 +172,10 @@
     <Content Include="Content\bootstrap-def.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Images\logo.png" />
@@ -200,6 +203,11 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -226,6 +234,15 @@
     <Content Include="Views\Login\_ViewStart.cshtml" />
     <Content Include="Views\Login\_LoginLayout.cshtml" />
     <Content Include="Views\Admin\SearchEmp.cshtml" />
+    <Content Include="Views\Admin\RegisterEmp.cshtml" />
+    <Content Include="Views\Admin\ModifyEmp.cshtml" />
+    <Content Include="Views\Admin\SearchEmpRole.cshtml" />
+    <Content Include="Views\Admin\AddEmpRole.cshtml" />
+    <Content Include="Views\Admin\ModifyEmpRole.cshtml" />
+    <Content Include="Views\Admin\ResetEmpPass.cshtml" />
+    <Content Include="Views\Admin\SearchAilment.cshtml" />
+    <Content Include="Views\Admin\UpdateAilment.cshtml" />
+    <Content Include="Views\Admin\AddAilment.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Modify Employee Details";
+}
+
+<h2>Modify Employee Details</h2>
+
+<hr />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6">
+            <div>
+                <label>First Name:</label>
+                <input type="text" class="form-control" id="FirstName" placeholder="Taylor">
+            </div>
+            <div>
+                <label>Surname:</label>
+                <input type="text" class="form-control" id="Surname" placeholder="Test">
+            </div>
+            <div>
+                <label>Cellphone Number:</label>
+                <input type="tel" class="form-control" id="Celephone" placeholder="072 923 7183">
+            </div>
+            <div>
+                <label>Telephone Number:</label>
+                <input type="tel" class="form-control" id="Telephone" placeholder="012 993 1526">
+            </div>
+            <div>
+                <label>Email Address:</label>
+                <input type="email" class="form-control" id="Email" placeholder="Taylor.vdw@gmail.com">
+            </div>
+            <div>
+                <label>ID Number:</label>
+                <input type="tel" class="form-control" id="IDNo" placeholder="9611055097081">
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div>
+                <div>
+                    <label>Postal Address:</label>
+                    <textarea class="form-control" id="PostalAdd" rows="2" placeholder="1642 Moreleta park Pretoria"></textarea>
+                </div>
+                <div>
+                    <label>House Address:</label>
+                    <textarea class="form-control" id="HouseAdd" rows="2" placeholder="505 Rover Street Constantia Park Pretoria"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Employee Role:</label>
+                    <select class="custom-select">
+                        <option selected="">Doctor</option>
+                        <option value="1">Doctor</option>
+                        <option value="2">Receptionist</option>
+                        <option value="3">Bookkeeper</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-warning"><i class="fas fa-key"></i> Reset User Password</button>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <button type="button" class="btn btn-success"><i class="fas fa-pen"></i> Modify</button>
+    <button type="button" class="btn btn-danger"><i class="fas fa-user-slash"></i> Discard</button>
+</div>
