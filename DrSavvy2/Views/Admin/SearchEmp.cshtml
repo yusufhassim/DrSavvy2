@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Employee List";
+}
+
+<h2>Employee List</h2>
+<hr />
+
+<button type="button" class="btn btn-primary">Register New Employee</button>
+<hr />
+<div class="input-group md-form form-sm form-1 pl-0">
+    <div class="input-group-prepend" style="color:dodgerblue;">
+        <span class="input-group-text" id="basic-text1" style="background-color:dodgerblue;">
+            <i class="fas fa-search text-white"
+               aria-hidden="true"></i>
+        </span>
+    </div>
+    <input type="text" class="form-control border-bottom" placeholder="Search here..." aria-label="Recipient's username" aria-describedby="button-addon2">
+</div>
+<br />
+<div>
+    <table class="table-active table table-hover" style="border-radius: 25px;">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Surname</th>
+                <th scope="col">Employee Role</th>
+                <th scope="col">Modify</th>
+                <th scope="col">Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Dean</td>
+                <td>Test</td>
+                <td>Manager</td>
+                <td>
+                    <a><i class="fas fa-user-edit fa-lg"></i></a>
+                </td>
+                <td>
+                    <a><i class="far fa-trash-alt fa-lg"></i></a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Yusuf</td>
+                <td>Hassim</td>
+                <td>Cleaner</td>
+                <td>
+                    <a><i class="fas fa-user-edit fa-lg"></i></a>
+                </td>
+                <td>
+                    <a><i class="far fa-trash-alt fa-lg"></i></a>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>

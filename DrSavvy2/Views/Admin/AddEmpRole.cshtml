@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Add New Employee Role";
+}
+
+<h2>Add New Employee Role</h2>
+<hr />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6">
+            <div>
+                <label>Role Description:</label>
+                <input type="text" class="form-control" id="RoleDesc" placeholder="Role Description">
+            </div>
+
+        </div>
+        <div class="col-sm-6">
+
+            <div class="form-group">
+                <label>Employee Role:</label>
+                <br />
+                <select class="custom-select">
+                    <option selected="">Select Acess Control</option>
+                    <option value="1">Full Control</option>
+                    <option value="2">Mandatory Control</option>
+                    <option value="3">Financial Control</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-success"><i class="fas fa-plus"></i> Add</button>
+    <button type="button" class="btn btn-danger"><i class="fas fa-user-slash"></i> Discard</button>
+</div>
+<hr />
+
+
+
