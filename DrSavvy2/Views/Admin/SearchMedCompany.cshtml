@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "Medical Aid Company List";
+}
+
+<h2>Medical Aid Company List</h2>
+<button type="button" class="btn btn-primary">Add New Medical Aid Company</button>
+<hr />
+<div class="input-group md-form form-sm form-1 pl-0">
+    <div class="input-group-prepend" style="color:dodgerblue;">
+        <span class="input-group-text" id="basic-text1" style="background-color:dodgerblue;">
+            <i class="fas fa-search text-white"
+               aria-hidden="true"></i>
+        </span>
+    </div>
+    <input type="text" class="form-control border-bottom" placeholder="Search here..." aria-label="Recipient's username" aria-describedby="button-addon2">
+</div>
+<br />
+<div>
+    <table class="table-active table table-hover" style="border-radius: 25px;">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Company Name</th>
+                <th scope="col">Contact Person</th>
+                <th scope="col">Contact Number</th>
+                <th scope="col">Modify</th>
+                <th scope="col">Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Discovery</td>
+                <td>Dean Van Tonder</td>
+                <td>084 545 8477</td>
+                <td>
+                    <a><i class="fas fa-user-edit fa-lg"></i></a>
+                </td>
+                <td>
+                    <a><i class="far fa-trash-alt fa-lg"></i></a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>FedHealth</td>
+                <td>Graeme Smith</td>
+                <td>072 927 7458</td>
+                <td>
+                    <a><i class="fas fa-user-edit fa-lg"></i></a>
+                </td>
+                <td>
+                    <a><i class="far fa-trash-alt fa-lg"></i></a>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>

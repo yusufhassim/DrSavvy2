@@ -243,6 +243,28 @@
     <Content Include="Views\Admin\SearchAilment.cshtml" />
     <Content Include="Views\Admin\UpdateAilment.cshtml" />
     <Content Include="Views\Admin\AddAilment.cshtml" />
+    <Content Include="Views\Admin\SearchMedication.cshtml" />
+    <Content Include="Views\Admin\ModifyMedication.cshtml" />
+    <Content Include="Views\Admin\AddMedication.cshtml" />
+    <Content Include="Views\Admin\SearchMedType.cshtml" />
+    <Content Include="Views\Admin\ModifyMedType.cshtml" />
+    <Content Include="Views\Admin\AddMedType.cshtml" />
+    <Content Include="Views\Admin\SearchInstitute.cshtml" />
+    <Content Include="Views\Admin\ModifyInstitute.cshtml" />
+    <Content Include="Views\Admin\AddInstitute.cshtml" />
+    <Content Include="Views\Admin\SearchInstType.cshtml" />
+    <Content Include="Views\Admin\ModifyInstType.cshtml" />
+    <Content Include="Views\Admin\AddInstType.cshtml" />
+    <Content Include="Views\Admin\SearchProcedure.cshtml" />
+    <Content Include="Views\Admin\ModifyProcedure.cshtml" />
+    <Content Include="Views\Admin\AddProcedure.cshtml" />
+    <Content Include="Views\Admin\SearchMedCompany.cshtml" />
+    <Content Include="Views\Admin\ModifyMedCompany.cshtml" />
+    <Content Include="Views\Admin\AddMedCompany.cshtml" />
+    <Content Include="Views\Admin\SearchMedScheme.cshtml" />
+    <Content Include="Views\Admin\ModifyMedScheme.cshtml" />
+    <Content Include="Views\Admin\AddMedScheme.cshtml" />
+    <Content Include="Views\Admin\SearchXrayType.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

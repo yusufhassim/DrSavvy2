@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Add New Institute";
+}
+
+<h2>Add New Institute</h2>
+<hr />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6">
+            <div>
+                <label>Institute Name:</label>
+                <input type="text" class="form-control" id="FirstName" placeholder="Name..">
+            </div>
+            <div>
+                <label>Contact Number:</label>
+                <input type="text" class="form-control" id="FirstName" placeholder="Contact Number">
+            </div>
+
+        </div>
+        <div class="col-sm-6">
+            <div>
+
+                <div class="form-group">
+                    <label>Institute Type:</label>
+                    <select class="custom-select">
+                        <option selected="">Institute Type</option>
+                        <option value="1">Doctor</option>
+                        <option value="2">Receptionist</option>
+                        <option value="3">Bookkeeper</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Institute Type Description:</label>
+                    <textarea class="form-control" id="HouseAdd" rows="2" placeholder="Institute Type"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <button type="button" class="btn btn-success"><i class="fas fa-pen"></i> Modify</button>
+    <button type="button" class="btn btn-danger"><i class="fas fa-user-slash"></i> Discard</button>
+</div>

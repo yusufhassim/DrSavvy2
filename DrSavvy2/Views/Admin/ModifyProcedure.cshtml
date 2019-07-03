@@ -1,0 +1,116 @@
+﻿
+@{
+    ViewBag.Title = "ModifyProcedure";
+}
+
+<h2>ModifyProcedure</h2>
+<hr />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6">
+            <div>
+                <label>Name:</label>
+                <input type="text" class="form-control" id="Name" placeholder="Cardiac Stress test">
+            </div>
+            <div>
+                <label>Description:</label>
+                <textarea class="form-control" id="HouseAdd" rows="2" placeholder="Used to test for heart disease"></textarea>
+            </div>
+            <div>
+                <label>Price:</label>
+                <input type="text" class="form-control" id="Name" placeholder="R 450">
+            </div>
+
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>Products:</label>
+                <!--Dropdown primary-->
+                <div class="">
+                    <!--Trigger-->
+                    <button class="btn btn-primary" type="button" id="dropdownMenu1-1"
+                            data-toggle="dropdown">
+                        Add Product
+                    </button>
+
+                    <!--Menu-->
+                    <div class="dropdown-menu dropdown-primary" id="your-custom-id">
+                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                        <a class="dropdown-item mdb-dropdownLink-1">MDB</a>
+                        <a class="dropdown-item mdb-dropdownLink-1">MDB react</a>
+                        <a class="dropdown-item mdb-dropdownLink-1">MDB angular</a>
+                        <a class="dropdown-item mdb-dropdownLink-1">MDB vue</a>
+                        <a class="dropdown-item mdb-dropdownLink-1">BrandFlow</a>
+                        <a class="dropdown-item mdb-dropdownLink-1">Test     </a>
+                    </div>
+                </div>
+                <br />
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Remove</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Needle</td>
+                            <td><input type="number" class="form-control" placeholder="1" /></td>
+                            <td>
+                                <span style=" color: Tomato;">
+                                    <i class="fas fa-minus-circle fa-2x"></i>
+                                </span>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Syringe</td>
+                            <td><input type="number" class="form-control" placeholder="1" /></td>
+                            <td>
+                                <span style="color: Tomato;">
+                                    <i class="fas fa-minus-circle fa-2x"></i>
+                                </span>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </div>
+    <hr />
+    <button type="button" class="btn btn-success"><i class="fas fa-plus"></i> Add</button>
+    <button type="button" class="btn btn-danger"><i class="fas fa-user-slash"></i> Discard</button>
+</div>
+
+<script>
+
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    function filterFunction() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        div = document.getElementById("myDropdown");
+        a = div.getElementsByTagName("a");
+        for (i = 0; i < a.length; i++) {
+            txtValue = a[i].textContent || a[i].innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                a[i].style.display = "";
+            } else {
+                a[i].style.display = "none";
+            }
+        }
+    }
+</script>

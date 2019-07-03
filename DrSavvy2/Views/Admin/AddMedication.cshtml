@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Add New Medication";
+}
+
+<h2>Add New Medication</h2>
+<hr />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6">
+            <div>
+                <label>Medication Name:</label>
+                <input type="text" class="form-control" id="FirstName" placeholder="Medication Name..">
+            </div>
+            <br />
+            <div>
+                <label>Medication Size: (Mg)</label>
+                <input type="number" class="form-control" id="Surname" placeholder="Medication Size....">
+            </div>
+
+        </div>
+        <div class="col-sm-6">
+            <div>
+
+                <div class="form-group">
+                    <label>Medication Type:</label>
+                    <select class="custom-select">
+                        <option selected="">Medication Type</option>
+                        <option value="1">Doctor</option>
+                        <option value="2">Receptionist</option>
+                        <option value="3">Bookkeeper</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Medication Type Description:</label>
+                    <textarea class="form-control" id="HouseAdd" rows="2" placeholder="Medication Type Description"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <button type="button" class="btn btn-success"><i class="fas fa-pen"></i> Modify</button>
+    <button type="button" class="btn btn-danger"><i class="fas fa-user-slash"></i> Discard</button>
+</div>
+
+
