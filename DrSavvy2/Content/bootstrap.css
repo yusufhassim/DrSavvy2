@@ -337,3 +337,194 @@ a.article:hover {
     .box input[type = "submit"]:hover {
         background: #2ecc71;
     }
+.list-group-item.list-group-item-action.active {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: rgb(0, 123, 255);
+    border-right-color: rgb(0, 123, 255);
+    border-bottom-color: rgb(0, 123, 255);
+    border-left-color: rgb(0, 123, 255);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background-color: rgb(26, 100, 144);
+}
+
+#iuh8w {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+#myInput {
+    background-color: rgb(26, 100, 144);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(221, 221, 221);
+    border-right-color: rgb(221, 221, 221);
+    border-bottom-color: rgb(221, 221, 221);
+    border-left-color: rgb(221, 221, 221);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    color: rgb(255, 255, 255);
+    background-image: url("/css/searchicon.png");
+    background-position-x: 10px;
+    background-position-y: 12px;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    margin-bottom: 12px;
+}
+
+.list-group-item.list-group-item-action.active {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: rgb(0, 123, 255);
+    border-right-color: rgb(0, 123, 255);
+    border-bottom-color: rgb(0, 123, 255);
+    border-left-color: rgb(0, 123, 255);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background-color: rgb(26, 100, 144);
+}
+
+#myUL {
+    list-style-type: none;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+    #myUL li a {
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-top-color: rgb(221, 221, 221);
+        border-right-color: rgb(221, 221, 221);
+        border-bottom-color: rgb(221, 221, 221);
+        border-left-color: rgb(221, 221, 221);
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        margin-top: -1px;
+        background-color: rgb(246, 246, 246);
+        padding-top: 12px;
+        padding-right: 12px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+        text-decoration-line: none;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+        font-size: 18px;
+        color: black;
+        display: block;
+    }
+
+        #myUL li a:hover:not(.header) {
+            background-color: rgb(238, 238, 238);
+        }
+
+.col-xl-6.col-lg-6.col-md-6.col-sm-6.col-12 {
+    border-top-width: initial;
+    border-right-width: initial;
+    border-bottom-width: initial;
+    border-left-width: initial;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: rgb(33, 37, 41);
+    border-right-color: rgb(33, 37, 41);
+    border-bottom-color: rgb(33, 37, 41);
+    border-left-color: rgb(33, 37, 41);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.table.table-bordered.grocery-crud-table.table-hover {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: rgb(222, 226, 230);
+    border-right-color: rgb(222, 226, 230);
+    border-bottom-color: rgb(222, 226, 230);
+    border-left-color: rgb(222, 226, 230);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.row {
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+hr {
+    color: #ffffff;
+}
+
+
+
+    /*taylor CSS Start*/
+
+/*taylor CSS End*/

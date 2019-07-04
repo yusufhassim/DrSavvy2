@@ -1,0 +1,163 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="Navigation-with-Button.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body style="width: 1440px;background-color: rgb(14,13,13);margin-left: -10px;height: 2304px;">
+    <div style="margin-left: -26px;margin-top: 95px;">
+        <h1 style="margin-left: 109px;color: #00af99;">Patient Consulation : #34256</h1>
+        <div class="container">
+            <div class="row" style="height: 198px;">
+                <div class="col-md-4" style="margin-left: -54px;background-color: rgba(255,255,255,0);">
+                    <div class="table-responsive" style="width: 375px;margin-left: -13px;height: 202px;">
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th style="background-color: #00709e;">                          Patient Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="height: 30px;">
+                                    <td> Name :   Yusuf Hassim</td>
+                                </tr>
+                                <tr>
+                                    <td>Age : 23</td>
+                                </tr>
+                                <tr>
+                                    <td>Gender : Male</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-4" style="margin-left: 36px;">
+                    <div class="table-responsive" style="width: 375px;margin-left: -13px;height: 202px;">
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th style="background-color: #00709e;">                                 Allergies</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="height: 30px;">
+                                    <td>Pollen</td>
+                                </tr>
+                                <tr>
+                                    <td>Ibuprofen</td>
+                                </tr>
+                                <tr>
+                                    <td>Penecilin</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-4" style="width: 445px;margin-left: 17px;height: 180px;">
+                    <div class="table-responsive" style="width: 375px;margin-left: -13px;height: 202px;">
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th style="background-color: #00709e;">               Previous Consultations</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="height: 30px;">
+                                    <td><i class="fa fa-folder-open-o"></i>   04 January 2019</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-folder-open-o"></i> 05 March 2019</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-folder-open-o"></i> 17 May 2019</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="color: rgb(255,255,255);background-color: #60dd49;margin-top: 33px;width: 1192px;margin-left: 81px;padding-top: -22px;" />
+    <h1 style="margin-left: 86px;color: #00af99;">Procedures</h1>
+    <p></p>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="background-color: #343b3d;margin-left: -67px;width: 642px;">
+                    <input type="search" placeholder="Search Procedure" class="border rounded" style="width: 385px;margin-top: 10px;height: 47px;background-color: rgb(76,82,82);color: rgb(255,255,255);" /><button class="btn btn-success" type="button" style="margin-left: 31px;">Search</button>
+                    <h1 style="margin-top: 29px;color: rgb(253,253,254);font-size: 29px;">
+                        Search Results
+                    </h1>
+                    <div class="table-responsive" style="margin-top: 8px;">
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th style="width: 62px;">Code</th>
+                                    <th style="width: 407px;">Procedure Description</th>
+                                    <th style="width: 168px;">Add</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="width: -29px;">0217</td>
+                                    <td>Allergy: Skin Patch tests: First patch</td>
+                                    <td><i class="fa fa-plus" style="font-size: 28px;color: #00c993;"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>0220</td>
+                                    <td>Deep skin biopsy by surgical incision with local anaesthetic and suturing</td>
+                                    <td><i class="fa fa-plus" style="font-size: 28px;color: #00c993;"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p></p>
+                </div>
+                <div class="col-md-6" style="margin-left: 58px;background-color: #202222;width: 570px;">
+                    <h1 class="border rounded" style="margin-top: -3px;color: rgb(253,253,254);width: 573px;margin-left: -16px;background-color: #c10538;">Added Procedures  <i class="fa fa-plus-circle"></i></h1>
+                    <div class="table-responsive table-bordered" style="background-color: rgba(17,16,16,0);">
+                        <table class="table table-striped table-bordered table-dark table-sm">
+                            <thead>
+                                <tr>
+                                    <th style="width: 69px;">Code</th>
+                                    <th style="width: 426px;">Description</th>
+                                    <th style="width: 73px;">Remove </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0111</td>
+                                    <td>General Anesthetic</td>
+                                    <td><i class="fa fa-minus" style="font-size: 29px;color: rgb(255,0,0);"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>0245</td>
+                                    <td>Application of Skin Cream</td>
+                                    <td><i class="fa fa-minus" style="font-size: 29px;color: rgb(255,0,0);"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="color: rgb(255,255,255);background-color: #60dd49;margin-top: 33px;width: 1192px;margin-left: 81px;padding-top: -22px;" />
+    <h1 style="margin-left: 109px;color: #00af99;">Notes </h1><button class="btn btn-secondary" type="button" style="margin-left: 227px;">New Note</button><label style="margin-left: 157px;color: rgb(255,255,255);font-size: 25px;">Session Notes :</label><label style="font-size: 27px;color: rgb(51,140,230);margin-left: 14px;">3 </label>
+    <i class="fa fa-folder" style="color: rgb(0,128,255);font-size: 28px;margin-left: 10px;"></i>
+    <div></div><input type="text" class="border rounded border-primary form-control-lg" style="margin-left: 227px;height: 125px;width: 962px;padding: 0px;margin-top: 19px;" />
+    <p></p><button class="btn btn-warning border rounded" type="button" style="padding-left: 19px;margin-left: 228px;color: rgb(255,255,255);">Save Note</button><i class="fa fa-trash-o" style="margin-left: 816px;font-size: 47px;color: #d81e05;margin-top: -4px;margin-bottom: -1px;"></i>
+    <hr style="color: rgb(255,255,255);background-color: #60dd49;margin-top: 33px;width: 1192px;margin-left: 81px;padding-top: -22px;" />
+    <h1 style="margin-left: 109px;color: #00af99;margin-bottom: 28px;">Letters</h1><button class="btn btn-primary" type="button" style="margin-left: 147px;width: 288px;height: 122px;font-size: 30px;background-color: rgb(93,133,176);"><strong>New Prescription</strong></button><button class="btn btn-info" type="button"
+                                                                                                                                                                                                                                                                                            style="margin-left: 84px;width: 288px;height: 122px;font-size: 30px;">
+        <strong>New Dr Note</strong>
+    </button><button class="btn btn-warning" type="button" style="margin-left: 98px;width: 288px;height: 122px;font-size: 30px;background-color: rgb(220,173,31);color: rgb(255,255,255);"><strong>New Refferal</strong></button>
+    <hr style="color: rgb(255,255,255);background-color: #60dd49;margin-top: 33px;width: 1192px;margin-left: 81px;padding-top: -22px;" /><button class="btn btn-outline-danger border rounded" type="button" style="margin-left: 342px;width: 683px;height: 76px;"><strong>End Consultation</strong></button>
+</body>
