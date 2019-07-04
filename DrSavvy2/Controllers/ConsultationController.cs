@@ -14,5 +14,25 @@ namespace DrSavvy2.Controllers
             ViewBag.Title = "Record Consultation";
             return View();
         }
+
+        public ActionResult NewConsultation()
+        {
+            return View();
+        }
+
+        public ActionResult XRay()
+        {
+            return View();
+        }
+
+        public ActionResult RequestXRay()
+        {
+            return View();
+        }
+
+        public ActionResult UploadXRay()
+        {
+            return View();
+        }
     }
 }

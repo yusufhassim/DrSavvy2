@@ -3,100 +3,103 @@
     ViewBag.Title = "Record Consultation";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<div class="row">
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
-        <a href="#" class="list-group-item list-group-item-action active">
-            <b data-highlightable="1" class="gjs-comp-selected">
-                Patient Details
-            </b>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action disabled">Yusuf Hassim</a>
-        <a href="#" class="list-group-item list-group-item-action disabled">Age: 23</a>
-        <a href="#" class="list-group-item list-group-item-action disabled">Male</a>
-    </div>
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
-        <a href="#" class="list-group-item list-group-item-action active">
-            <b>
-                Allergies
-            </b>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action disabled">Aspirin</a>
-        <a href="#" class="list-group-item list-group-item-action disabled">Penicillin</a>
-        <a href="#" class="list-group-item list-group-item-action disabled">ibuprofen</a>
-    </div>
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
-        <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action active">
-                <b>
-                    Previous Consultations
-                </b>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action"><i class="far fa-folder-open"></i>&nbsp;03 Jan 2019 </a>
-            <a href="#" class="list-group-item list-group-item-action"><i class="far fa-folder-open"></i>&nbsp;02 Nov 2018 </a>
-            <a href="#" class="list-group-item list-group-item-action"><i class="far fa-folder-open"></i>&nbsp;12 Jun 2018 </a>
-        </div>
-    </div>
-</div>
-<div class="row">
-    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-        <div class="input-group">
-            <input type="text" id="myInput" onkeyup="myFunction()" class="form-control" placeholder="Search for Procedure Name or Code..." />
-            <span class="align-items-center"><button type="button" class="btn btn-default">Search</button><i class="fas fa-search"></i></span>
-        </div>
-        <ul id="myUL">
-            <li>
-                <a href="#">Allergy: Patch tests: First patch</a>
-            </li>
-            <li>
-                <a href="#">Allergy: Skin-prick tests: Skin-prick testing: Insect venom, latex and drugs</a>
-            </li>
-            <li>
-                <a href="#">Biopsy without suturing: First lesion</a>
-            </li>
-        </ul>
-    </div>
-    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-        <table class="table table-bordered grocery-crud-table table-hover">
-            <thead>
-                <tr>
-                    <th>
-                        Procedure Code
-                    </th>
-                    <th>
-                        Procedure Description
-                    </th>
-                    <th>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="Navigation-with-Button.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
 
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        0217
-                    </td>
-                    <td>
-                        Allergy: Patch tests: First patch
-                    </td>
-                    <td>
-                        <a href="" class="btn"><i class="fas fa-minus-circle"></i></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        0220
-                    </td>
-                    <td>
-                        Deep skin biopsy by surgical incision with local anaesthetic and suturing
-                    </td>
-                    <td>
-                        <a href="" class="btn"><i class="fas fa-minus-circle"></i></a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+<div role="alert" class="alert alert-success" style="width: 529px;margin-left: 435px;background-color: #99badd;">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span style="margin-left: 177px;color: rgb(0,0,0);"><strong>Enter Patient ID</strong></span>
+</div>
+
+<body style="background-color: rgb(14,13,13);margin-left: -10px">
+    <p></p><input type="search" class="border rounded" style="margin-left: 437px;" />
+    <button class="btn btn-info" type="button" style="margin-left: 28px;">Search</button>
+    <div style="margin-left: -26px;">
+        <div class="container">
+            <div class="row" style="height: 198px;">
+                <div class="col-md-4" style="margin-left: -54px;background-color: rgba(255,255,255,0);">
+                    <div class="table-responsive" style="width: 375px;margin-left: -13px;height: 202px;">
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th style="background-color: #00709e;">                          Patient Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="height: 30px;">
+                                    <td> Name :   Yusuf Hassim</td>
+                                </tr>
+                                <tr>
+                                    <td>Age : 23</td>
+                                </tr>
+                                <tr>
+                                    <td>Gender : Male</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-4" style="margin-left: 36px;">
+                    <div class="table-responsive" style="width: 375px;margin-left: -13px;height: 202px;">
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th style="background-color: #00709e;">                                 Allergies</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="height: 30px;">
+                                    <td>Pollen</td>
+                                </tr>
+                                <tr>
+                                    <td>Ibuprofen</td>
+                                </tr>
+                                <tr>
+                                    <td>Penecilin</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-4" style="width: 445px;margin-left: 17px;height: 180px;">
+                    <div class="table-responsive" style="width: 375px;margin-left: -13px;height: 202px;">
+                        <table class="table table-striped table-dark">
+                            <thead>
+                                <tr>
+                                    <th style="background-color: #00709e;">               Previous Consultations</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="height: 30px;">
+                                    <td><i class="fa fa-folder-open-o"></i>   04 January 2019</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-folder-open-o"></i> 05 March 2019</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-folder-open-o"></i> 17 May 2019</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-    <textarea cols="30" rows="3" class="form-control">  </textarea>
-</div>
+    <br />
+    <br />
+    <div></div><label style="margin-left: 385px;font-size: 37px;color: #6689cc;"></label>
+    <div role="group" class="btn-group"></div>
+    <div></div>
+    <h1 style="color: #6689cc;font-size: 40px;margin-left: 79px;">Select Option :</h1><i class="fa fa-window-close-o" style="margin-left: 153px;color: #00aacc;font-size: 154px;"></i><i class="fa fa-thermometer-empty" style="margin-left: 303px;color: #b73844;font-size: 153px;"></i><i class="fa fa-wpforms" style="margin-left: 289px;color: #00b760;font-size: 159px;"></i>
+    <p></p>
+    <h1 style="color: rgb(255,255,255);width: 116px;margin-left: 175px;">X-Ray</h1>
+    <h1 style="width: 200px;margin-left: 976px;margin-top: -50px;color: rgb(255,255,255);font-size: 26px;">New Consultation</h1>
+    <hr style="color: rgb(255,255,255);background-color: #60dd49;margin-top: 33px;width: 1192px;margin-left: 81px;padding-top: -22px;" />
+    <h1 style="width: 200px;margin-left: 587px;margin-top: -85px;color: rgb(255,255,255);font-size: 31px;">Blood Test</h1>
+    <div role="group" class="btn-group" style="color: #00aacc;font-size: 66px;margin-left: 59px;"></div>
+
+</body>
