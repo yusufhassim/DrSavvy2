@@ -47,13 +47,55 @@
                 <td>Graeme Smith</td>
                 <td>072 927 7458</td>
                 <td>
-                    <a><i class="fas fa-user-edit fa-lg"></i></a>
+                    <a><i class="fas fa-user-edit fa-lg"data-toggle="modal" data-target="#Edit"></i></a>
                 </td>
                 <td>
-                    <a><i class="far fa-trash-alt fa-lg"></i></a>
+                    <a><i class="far fa-trash-alt fa-lg"data-toggle="modal" data-target="#Delete"></i></a>
                 </td>
             </tr>
 
         </tbody>
     </table>
+</div>
+<!--Confirm Delete Modal-->
+<div class="modal fade" id="Delete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Delete Medical Aid Company?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to permanently delete this Medical Aid Company?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Confirm Edit Modal-->
+
+<div class="modal fade" id="Edit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Edit Medical Aid Company?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to edit this Medical's details?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Confirm</button>
+            </div>
+        </div>
+    </div>
 </div>
